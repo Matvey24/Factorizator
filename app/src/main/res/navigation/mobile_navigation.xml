@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_factor">
+
+    <fragment
+        android:id="@+id/navigation_factor"
+        android:name="com.matvey.perelman.polynommanager.ui.FactorizationFragment"
+        android:label="@string/title_factor"
+        tools:layout="@layout/fragment_factor" />
+
+    <fragment
+        android:id="@+id/navigation_modnod"
+        android:name="com.matvey.perelman.polynommanager.ui.ModNodFragment"
+        android:label="@string/title_modnod"
+        tools:layout="@layout/mod_nod_model" />
+
+    <fragment
+        android:id="@+id/navigation_reverse"
+        android:name="com.matvey.perelman.polynommanager.ui.ReverseFragment"
+        android:label="@string/title_reverse"
+        tools:layout="@layout/mod_nod_model" />
+
+    <fragment
+        android:id="@+id/navigation_helper"
+        android:name="com.matvey.perelman.polynommanager.ui.helper.HelperFragment"
+        android:label="@string/title_helper"
+        tools:layout="@layout/fragment_helper" />
+</navigation>

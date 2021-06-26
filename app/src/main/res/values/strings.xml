@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">Factorizator</string>
+    <string name="title_factor">Factorization</string>
+    <string name="field_size">Field size</string>
+    <string name="polynom_a">Polynom A</string>
+    <string name="polynom_b">Polynom B</string>
+    <string name="polynom_name">Polynom</string>
+    <string name="number_not_primary">Number isn\'t primary</string>
+    <string name="number_too_little">Number is too little</string>
+    <string name="error_reading">Can\'t understand polynom</string>
+    <string name="str_nod">GCD:</string>
+    <string name="title_modnod">MOD&amp;GCD</string>
+    <string name="str_mod">MOD:</string>
+    <string name="title_reverse">Reverse</string>
+    <string name="str_ideal">Polynom of ideal</string>
+    <string name="str_main">Main polynom</string>
+    <string name="polynom_not_primary">Polynom is not primary.</string>
+    <string name="algorithm_error">Congratulations! You have found a mistake in the algorithm!</string>
+    <string name="polynom_is_number">Please, enter a polynom</string>
+    <string name="reverse_element">Reversed element:</string>
+    <string name="title_helper">Help</string>
+    <string-array name="helpers">
+        <item>Field size:</item>
+        <item>One primary number.\n</item>
+        <item>Polynom input type:</item>
+        <item>Main input type: like x^4 + 2x^3 + 3x^2 + 4x + 5 - allows transpositions, long numbers and vars: x, n, t\nAlso you can enter \'1 2 3 4\', it means x^3 + 2x^2 + 3x + 4 - allows long numbers\nFinal type: 1234, it means the same, but numbers can consist only one figure.\n</item>
+        <item>Factorization:</item>
+        <item>Enter a polynom and click button OK (Enter) on the keyboard.\nIf the field is bigger than 20 (number was chosen by chance), the algorithm of probability will be used, which will be stopped on 10000 iteration, if won\'t work.(Usually it doesn\'t save from stopping, if stopping, quit by removing the app from active ones and enter again)\n</item>
+        <item>MOD&amp;GCD:</item>
+        <item>MOD and GCD of two given polynoms A and B.\n</item>
+        <item>Reverse:</item>
+        <item>Reverse item of main polynom in Fp[x]/(ideal polynom).\nReverse item * main polynom == 1 in this field.\nIdeal polynom needs to be primary.\n</item>
+    </string-array>
+    <string name="str_factor">Factorization:</string>
+    <string name="error_iters">Too many iterations (10000)</string>
+    <string name="calculating">Calculating…</string>
+    <string name="number_too_big">Number is too big</string>
+</resources>

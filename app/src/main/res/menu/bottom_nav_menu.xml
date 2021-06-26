@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_factor"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_factor" />
+
+    <item
+        android:id="@+id/navigation_modnod"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_modnod" />
+
+    <item
+        android:id="@+id/navigation_reverse"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_reverse" />
+    <item
+        android:id="@+id/navigation_helper"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/title_helper" />
+
+</menu>

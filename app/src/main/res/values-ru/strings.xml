@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polynom_a">Многочлен A</string>
+    <string name="polynom_b">Многочлен B</string>
+    <string name="polynom_name">Многочлен</string>
+    <string name="number_not_primary">Число не простое</string>
+    <string name="number_too_little">Число слишком маленькое</string>
+    <string name="error_reading">Невозможно распознать многочлен</string>
+    <string name="title_factor">Факторизация</string>
+    <string name="field_size">Размер поля</string>
+    <string name="str_nod">НОД:</string>
+    <string name="str_mod">МОД:</string>
+    <string name="title_modnod">МОД&amp;НОД</string>
+    <string name="title_reverse">Обратные</string>
+    <string name="str_ideal">Многочлен идеала</string>
+    <string name="str_main">Основной многочлен</string>
+    <string name="polynom_not_primary">Многочлен приводим</string>
+    <string name="algorithm_error">Наконец-то! Вы нашли ошибку в алгоритме!</string>
+    <string name="polynom_is_number">Пожалуйста, введите многочлен</string>
+    <string name="reverse_element">Обратный элемент:</string>
+    <string name="title_helper">Помощь</string>
+    <string-array name="helpers">
+        <item>Размер поля:</item>
+        <item>Простое число.\n</item>
+        <item>Метод ввода многочлена:</item>
+        <item>Основной метод: например x^4 + 2x^3 + 3x^2 + 4x + 5 - разрешены перестановки, длинные числа и переменные: x, n, t\nТакже можете ввести \'1 2 3 4\', это значит x^3 + 2x^2 + 3x + 4 - разрешены длинные числа\nПоследний тип: 1234, значит то же самое, но числа могут быть только в одну цифру.\n</item>
+        <item>Факторизация:</item>
+        <item>Введите многочлен от одной из переменных x, t, n.\nЗатем нажмите кнопку ОК на клавиатуре.\nЕсли размер поля больше 20 (число выбрано спонтанно), то будет использован вероятностный алгоритм, который будет остановлен на 10000 итерации, если не будет работать. (Обычно это не спасает от зависания, при зависании: выйти с помощью удаления приложения из активных и снова зайти.)\n</item>
+        <item>МОД&amp;НОД:</item>
+        <item>МОД и НОД двух данных многочленов A и B.\n</item>
+        <item>Обратные:</item>
+        <item>Обратный элемент к основному многочлену в Fp[x]/(многочлен идеала).\nОбратный элемент * основной многочлен == 1 в этом поле.\nМногочлен идеала должен быть неприводимым.\n</item>
+    </string-array>
+    <string name="str_factor">Разложение:</string>
+    <string name="error_iters">Слишком много итераций (10000)</string>
+    <string name="calculating">Вычисление…</string>
+    <string name="number_too_big">Число слишком большое</string>
+</resources>
